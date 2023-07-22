@@ -1,0 +1,122 @@
+.posts-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.posts-loading-view {
+  width: 1040px;
+  height: 566px;
+  flex-shrink: 0;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.posts-list {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #dbdbdb;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  width: 1040px;
+}
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 678px) {
+  .posts-list {
+    border: 1px solid #dbdbdb;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 100%;
+  }
+
+  .error-image {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-bottom: 12px;
+  }
+  .error-text {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: 0px;
+    margin-bottom: 12px;
+  }
+  .retry-button {
+    display: flex;
+    padding: 8px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #4094ef;
+    border-width: 0px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    cursor: pointer;
+
+    /* Action / Button / Small */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+  }
+}
+@media screen and (min-width: 679px) {
+  .posts-list {
+    border-width: 0px;
+    width: 100%;
+    max-width: 1040px;
+  }
+  .error-image {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-bottom: 12px;
+  }
+  .error-text {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px;
+    margin-bottom: 12px;
+  }
+  .retry-button {
+    display: flex;
+    padding: 8px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #4094ef;
+    border-width: 0px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    cursor: pointer;
+
+    /* Action / Button / Small */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+  }
+}

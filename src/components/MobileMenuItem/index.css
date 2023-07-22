@@ -1,0 +1,29 @@
+.mobile-menu-item {
+  list-style: none;
+}
+.active-menu-text {
+  color: #4094ef;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+  margin: 0px;
+}
+.menu-text {
+  margin: 0px;
+  color: #262626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
+.menu-item-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
